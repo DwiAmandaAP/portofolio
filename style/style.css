@@ -1,0 +1,44 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#projects .card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+#projects .card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+#projects .card:active, .card:active {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+
+.card .card-title, 
+.card .lead,
+.card svg {
+  color: black;
+  fill: black; 
+}
+
+
+.card:hover .card-title, 
+.card:hover .lead, 
+.card:hover svg {
+  color: black;
+  fill: black;
+}
+
